@@ -1,34 +1,27 @@
 # COP2654 Mobile Platform App Development
 
-Android coursework by Frank Acosta. Each assignment directory is a separate,
-self-contained Gradle project; open the directory for the app you want in Android
-Studio and let Gradle sync before running it on an emulator or Android device.
+These are the Android assignments I worked on for COP2654. Each folder is a separate app.
 
-| Project | Directory |
+| App | What it does |
 | --- | --- |
-| Happy Birthday | [Assignment1-HappyBirthday](Assignment1-HappyBirthday/) |
-| Dice Roller | [Assignment2-DiceRoller](Assignment2-DiceRoller/) |
-| Tip Time | [Assignment3-TipTime](Assignment3-TipTime/) |
-| Affirmations | [Assignment4-Affirmations](Assignment4-Affirmations/) |
-| Courses | [Assignment4-Courses](Assignment4-Courses/) |
-| Superheroes | [Assignment4-Superheroes](Assignment4-Superheroes/) |
+| [Happy Birthday](Assignment1-HappyBirthday/) | Shows a birthday message I customized with my name. |
+| [Dice Roller](Assignment2-DiceRoller/) | Picks a number from 1 to 6 when I tap Roll and shows the matching die. |
+| [Tip Time](Assignment3-TipTime/) | Calculates a tip from the bill amount and tip percentage, with an option to round it up. |
+| [Affirmations](Assignment4-Affirmations/) | Shows a scrolling list of photos and encouraging messages. |
+| [Courses](Assignment4-Courses/) | Shows course topics, pictures, and course counts in a two-column grid. |
+| [Superheroes](Assignment4-Superheroes/) | Shows a scrolling list of superheroes with names, descriptions, and pictures. |
 
-## Source history and attribution
+## Running an app
 
-Happy Birthday and Dice Roller were consolidated from their original repositories
-on October 13, 2026. Their project files are unchanged, and their original commits
-and author information are preserved as parents of the import commits.
+Open the assignment folder for the app in Android Studio. Let Gradle sync, then choose an emulator or Android phone and run the app. Each folder has its own Gradle setup.
 
-- [HappyBirthday](https://github.com/FRANKTHETANK-exe/HappyBirthday), source commit
-  `e08aaa5f43ac1871fcdd1b0584281a5ae315b4ba`.
-- [DiceRoller](https://github.com/FRANKTHETANK-exe/DiceRoller), source commit
-  `e1788ba56b10d9e5a054e19db98f9258265369ec`.
+## Where the code came from
 
-Earlier revisions of those apps appear at the root of their original histories;
-the import commits place them in the assignment directories above. The original
-repositories remain available as provenance and backup.
+I used Android learning exercises and starter code for this coursework. The existing license files and copyright notices are kept with each project.
 
-The coursework includes Android learning materials and starter projects. Existing
-license files and copyright notices remain with their respective projects. The
-Happy Birthday and Dice Roller source repositories did not include a LICENSE
-file; this consolidation does not add or change their licensing terms.
+I moved Happy Birthday and Dice Roller here from their separate repos. Their original commits and author information are still in this repo:
+
+- [Happy Birthday original commit](https://github.com/FRANKTHETANK-exe/COP2654-Mobile-Platfrom-App-Dev/commit/e08aaa5f43ac1871fcdd1b0584281a5ae315b4ba)
+- [Dice Roller original commit](https://github.com/FRANKTHETANK-exe/COP2654-Mobile-Platfrom-App-Dev/commit/e1788ba56b10d9e5a054e19db98f9258265369ec)
+
+Neither original app repo included a LICENSE file.
