@@ -10,9 +10,10 @@ Android apps built with Kotlin and Jetpack Compose for COP2654. Each assignment 
 | [Affirmations](Assignment4-Affirmations/) | Displays a scrolling list of photos and encouraging messages. |
 | [Courses](Assignment4-Courses/) | Displays course topics and counts in a two-column grid. |
 | [Superheroes](Assignment4-Superheroes/) | Displays superhero names, descriptions, and pictures. |
+| [Dessert Clicker](Assignment5-DessertClicker/) | Counts dessert sales, tracks revenue, and keeps progress when the screen rotates. |
 
 ## Run
 
 Open an assignment folder in Android Studio, sync Gradle, and run the app on an emulator or Android device. The projects specify Android SDK 37 and a Java 25 Gradle toolchain; devices require Android 7.0 or later.
 
-Credits: The Android Open Source Project for the Tip Time, Affirmations, Courses, and Superheroes examples.
+Credits: The Android Open Source Project for the Tip Time, Affirmations, Courses, Superheroes, and Dessert Clicker examples.
